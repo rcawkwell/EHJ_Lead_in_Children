@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+  <link rel="stylesheet" type='text/css' href="map.css">
+  <script src="http://d3js.org/d3.v4.min.js"></script>
+  </head>
+  <body>
+      <div class="title"> Brooklyn Soil Lead Map
+          <div class="subtitle"> interactive tool for urban gardeners </div>
+      </div>
+      <svg id="map-svg"> </svg>
+      <div class="info"> 
+        <div id="info-box"> Brooklyn <br> Avg. Lead Level: <br> What to Grow: <br>
+        </div>
+        <div id="info-menu"> 
+          <div class="menu-button">
+          <a href="#" onclick="changeText('The health impacts are ...')">Health Impact </a> </div>
+          <div class="menu-button">
+          <a href="#" onclick="changeText('Washing hands and vegetables')">Best Practices </a>
+        </div>
+          <div class="menu-button">
+          <a href="#" onclick="changeText('Hover over the map to find the average lead level of that region of Brooklyn')">How to Use </a>
+        </div>
+          <div class="menu-button">
+          <a href="#" onclick="changeText('This website was built as part of Columbia Universitys Environmental health Justice Class in the Fall of 2019' )"> About </a> 
+        </div>
+        </div>
+        <div id="info-resources"> Eating foods grown with high lead levels can have negative impacts. Learn more here </div>
+      </div> 
+<script src = "bkmap.js"></script>
+</body>
+</html>
