@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Cinzel', serif;
 }
 .title {
@@ -12,37 +12,49 @@ body{
     font-size: 30px;
 }
 .map-svg { 
-	display: inline-block;
+  display: inline-block;
  }
 .info { 
-	padding-top: 50px;
-	position: relative;
-	width: 400px;
-	border-color: black;
-	display: inline-block;
+  vertical-align: top;
+  padding-top: 50px;
+  position: relative;
+  width: 400px;
+  display: inline-block;
 
  }
-
+#info-menu { 
+  padding: 30px;
+  text-align: center;
+ }
  .menu-button {
- 	width: 150px;
- 	display: inline-block;
- 	position: relative;
- 	text-align: center;
- 	text-decoration: none;
- 	color: black;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  color: #481c6f;
+  font-weight: bold;
+  padding:24px 0px;
  }
 
  .menu-button:hover { 
   text-decoration: none;
+  background-color: #481c6f;
+  color: #ffffff;
+  
   }
 
  #info-box { 
- 	padding-bottom: 20px;
- 	padding-top: 20px;
- 	padding-left: 5px;
- 	border-style: solid;
-  	border-width: 2px;
-  	background: rgba(180, 216, 85, 0.5);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 5px;
+  border-style: solid;
+    border-width: 2px;
+    background: rgba(180, 216, 85, 0.5);
 
 
   }
+
+.menu-button, a:link a:visited { 
+  text-decoration: none;
+ }

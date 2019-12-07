@@ -42,6 +42,8 @@ d3.csv(csv_url, function(lead_data){
            .on("mouseover", mouseover)
            .on("mouseout", mouseout)
            .style("fill", determineColor)
+           .style("stroke", 'black')
+           .style("stroke-width", 2)
        }
        );
        
